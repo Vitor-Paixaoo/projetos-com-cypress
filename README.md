@@ -5,18 +5,19 @@ Cypres is a Javascript-based end-to-end testing framework that allows developers
 
 
 ## Installation
-''' bash
+```bash
 npm install
-'''
->**NOTE:**
+```
+
+> **NOTE:**
 >
-> It is necessary to have **node**** installed
+> It is necessary to have **Node.js** installed
 
 ## Running
-''' bash
-# You open the Cypress UI
+```bash
+# Open Cypress UI
 npx cypress open 
 
-# Run the automation by command line
+# Run tests in headless mode
 npx cypress run
-'''
+```
