@@ -20,6 +20,10 @@ class LoginPage {
         
 
     }
+
+    checkAcessInvalid() {
+         cy.get(this.selectorsList().wrongCredentialAlert)
+    }
     
 }
 

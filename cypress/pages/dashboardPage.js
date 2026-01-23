@@ -1,7 +1,7 @@
 class DashboardPage {
     selectorsList () {
         const selectors  = {
-           sectionTitleDashboard: ".oxd-text--h6",
+           sectionTitleDashboard: "[href='/web/index.php/dashboard/index']",
 } 
         return selectors
     }
